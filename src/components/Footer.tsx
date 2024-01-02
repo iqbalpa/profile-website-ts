@@ -5,7 +5,7 @@ const Footer: FC = () => {
 		<>
 			<footer className="footer footer-center p-4 bg-ResolutionBlue text-base-content">
 				<div>
-					<p>Copyright © 2023 - All right reserved by Iqbal Pahlevi Amin</p>
+					<p>Copyright © 2023 - All right reserved by iqbalpa</p>
 				</div>
 			</footer>
 		</>

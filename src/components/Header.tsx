@@ -1,7 +1,7 @@
-import React from "react";
+import { FC } from "react";
 import ContactButton from "../components/ContactButton";
 
-const Header: React.FC = () => {
+const Header: FC = () => {
 	return (
 		<header className="fixed w-screen h-[4.5rem] z-10 flex flex-row justify-between items-center bg-ResolutionBlue text-white">
 			<h1 className="text-2xl font-bold ml-5">IQBAL</h1>
