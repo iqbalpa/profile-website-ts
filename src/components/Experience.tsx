@@ -10,7 +10,7 @@ interface ExperienceItemProps {
 const ExperienceItem: FC<ExperienceItemProps> = ({ institution, role, date }) => {
 	return (
 		<div className="flex flex-col items-center">
-			<div className="w-[40rem] flex flex-row">
+			<div className="w-[50rem] flex flex-row">
 				<div className="flex items-center justify-end w-full mx-auto">
 					<div className="w-full lg:pr-8">
 						<div className="w-full text-xl text-right">
