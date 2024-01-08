@@ -4,7 +4,7 @@ import Netflix from "../assets/netflix-clone.png";
 import FaceDetector from "../assets/face-detector.png";
 import ParisHousing from "../assets/paris-housing-price.png";
 import NumbersApi from "../assets/numbers-api.png";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { Link, useLocation } from "react-router-dom";
 
 interface ProjectData {
@@ -60,7 +60,7 @@ const Project: FC = () => {
 	return (
 		<>
 			{location.pathname === "/project" && (
-				<Fade bottom>
+				<Fade>
 					<div className="card-actions justify-start absolute top-0 left-0 ml-10 mt-10">
 						<Link to="/">
 							<button className="btn btn-primary hover:scale-105">Back</button>
@@ -69,7 +69,7 @@ const Project: FC = () => {
 				</Fade>
 			)}
 			<div id="2" className="flex flex-col justify-center items-center bg-MidnightBlue pt-14 pb-5">
-				<Fade bottom>
+				<Fade>
 					<h1 className="text-2xl text-green-500 font-bold">P R O J E C T</h1>
 					<p className="text-lg">Here are the projects I have worked on lately</p>
 					{location.pathname === "/" ? (
