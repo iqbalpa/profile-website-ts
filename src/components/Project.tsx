@@ -4,6 +4,9 @@ import Netflix from "../assets/netflix-clone.png";
 import FaceDetector from "../assets/face-detector.png";
 import ParisHousing from "../assets/paris-housing-price.png";
 import NumbersApi from "../assets/numbers-api.png";
+import CoralBleaching from "../assets/coral-bleaching.png";
+import FireDetection from "../assets/fire-detection.png";
+import UnsupervisedTextClassification from "../assets/unsupervised-text-classification.png";
 import { Fade } from "react-awesome-reveal";
 import { Link, useLocation } from "react-router-dom";
 
@@ -27,6 +30,26 @@ const Project: FC = () => {
 				title: "Netflix Website clone",
 				description: "Netflix Website interface clone using React JS and Tailwind CSS",
 				link: "https://netflix-clone-iqbalpa.vercel.app/",
+			},
+			{
+				imageLink: CoralBleaching,
+				title: "Coral Bleaching Detection",
+				description: "Coral Bleaching Detection using ResNet based CNN and Grad-CAM visualization",
+				link: "https://arxiv.org/abs/2308.04337v1",
+			},
+			{
+				imageLink: FireDetection,
+				title: "Fire Detection using ResNet based CNN",
+				description:
+					"Fire Detection using ResNet for accomplishing me and my team's project during the JOINTS 2023 competition",
+				link: "https://docs.google.com/presentation/d/1Nf6okU5OoRET1e6TFP2pxayrDcto0i6adycC5gBJdUo/edit?usp=sharing",
+			},
+			{
+				imageLink: UnsupervisedTextClassification,
+				title: "Unsupervised Text Classification",
+				description:
+					"Unsupervised Text Classification using Lbl2Vec for accomplishing my NLP subject final project",
+				link: "../assets/pa-nlp.pdf",
 			},
 			{
 				imageLink: FaceDetector,
