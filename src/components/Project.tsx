@@ -6,6 +6,7 @@ import ParisHousing from "../assets/paris-housing-price.png";
 import NumbersApi from "../assets/numbers-api.png";
 import CoralBleaching from "../assets/coral-bleaching.png";
 import FireDetection from "../assets/fire-detection.png";
+import ChestSymptomsClassification from "../assets/chest-symptoms-classification.png";
 import UnsupervisedTextClassification from "../assets/unsupervised-text-classification.png";
 import { Fade } from "react-awesome-reveal";
 import { Link, useLocation } from "react-router-dom";
@@ -43,6 +44,12 @@ const Project: FC = () => {
 				description:
 					"Fire Detection using ResNet for accomplishing me and my team's project during the JOINTS 2023 competition",
 				link: "https://docs.google.com/presentation/d/1Nf6okU5OoRET1e6TFP2pxayrDcto0i6adycC5gBJdUo/edit?usp=sharing",
+			},
+			{
+				imageLink: ChestSymptomsClassification,
+				title: "X-Ray Chest Symptoms Classification",
+				description: "X-Ray Chest Symptoms Classification using pretrained ResNet",
+				link: "https://huggingface.co/spaces/iqbalpa/chest-symptoms-classification",
 			},
 			{
 				imageLink: UnsupervisedTextClassification,
